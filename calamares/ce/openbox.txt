@@ -30,7 +30,6 @@ openbox
 paprefs
 pasystray
 pavucontrol
-pcmanfm-gtk3
 picom
 polkit-gnome
 pulseaudio
