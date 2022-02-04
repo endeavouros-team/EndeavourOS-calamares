@@ -470,11 +470,6 @@ _clean_up(){
 
     _misc_cleanups
 
-    # if both Xfce and i3 are installed, remove dex package
-    if [ -r /usr/share/xsessions/xfce.desktop ] && [ -r /usr/share/xsessions/i3.desktop ] ; then
-        _remove_a_pkg dex
-    fi
-
     # on the target, select file server based on country
     xx=/usr/bin/eos-select-file-server
     if [ -x $xx ] ; then
