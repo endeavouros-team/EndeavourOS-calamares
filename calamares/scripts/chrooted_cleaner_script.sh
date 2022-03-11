@@ -178,7 +178,6 @@ _clean_archiso(){
         /etc/systemd/logind.conf.d
         /etc/mkinitcpio-archiso.conf
         /etc/initcpio
-        /home/$NEW_USER/{.wget-hsts,.screenrc,.ICEauthority}
         /root/{*,.*}
         /etc/motd
         /{gpg.conf,gpg-agent.conf,pubring.gpg,secring.gpg}
