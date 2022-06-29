@@ -32,11 +32,11 @@ images:
 slideshowAPI: 2
 
 style:
-   sidebarBackground:    "#101010"
-   sidebarText:          "#ffffff"
-   sidebarTextSelect:    "#000000"
-   sidebarTextHighlight: "#f5f6f7"
-
+   SidebarBackground:    "#101010"
+   SidebarText:          "#ffffff"
+   SidebarTextCurrent:    "#000000"
+   SidebarBackgroundCurrent: "#f5f6f7"
+   
 slideshow:               "show.qml"
 
 # log feature
